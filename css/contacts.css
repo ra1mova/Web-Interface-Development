@@ -1,0 +1,27 @@
+.contacts__content{
+    padding-top: 180px;
+}
+.contact_text{
+    text-align: center;
+}
+.row{
+    margin-top: 70px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.block{
+    color: #ee3e0d;
+    padding-top: 20px;
+    display: block;
+}
+.contact_title{
+    font-size: 38px;
+    color: rgb(39, 36, 36);
+}
+.subtitle{
+    font-size: 18px;
+    padding-top: 30px;
+    color: rgb(57, 51, 51);
+}

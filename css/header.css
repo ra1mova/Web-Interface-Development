@@ -1,0 +1,91 @@
+.header {
+    padding:1.2rem 0
+}
+
+.header__inner {
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+
+.user {
+     display:flex
+}
+
+.user__avatar {
+    width:57px;
+    height:57px;
+   
+}
+
+.user__avatar img {
+    border-radius:50%
+}
+    
+
+.user__content{
+    padding-left:9px
+}
+   
+.user__name{
+    margin-bottom:3px;
+    font-size:1.06rem;
+    line-height:1.2;
+    color:#2b2a2c;
+    font-weight:700;
+    
+}
+.user__name:hover{
+    margin-top: 25px;
+    margin-bottom:10px;
+    font-size:3rem;
+    
+    font-weight:700; 
+    position: absolute; 
+   
+    transform: translate(-3%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #c3c0c0,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4); 
+    animation-direction: alternate-reverse;} 
+img
+.user__prof{
+    
+    font-size:.8rem;color:rgba(43,42,44,0.7)}
+    .nav{display:flex;
+        align-items:center;
+        height:100%}
+    .nav__link{
+        margin-left:2rem;
+        position:relative;
+        font-size:.93rem;
+        color:#2b2a2c;
+        text-transform:uppercase;
+        font-weight:700;
+        text-decoration:none}
+    .nav__link:after{
+        content:"";
+        width:0;
+        height:2px;
+        background-color:#2b2a2c;
+        position:absolute;
+        bottom:-5px;left:0;
+        z-index:1;
+        transition:width .2s linear}
+    .nav__link:hover:not(.nav__link--btn):after{width:100%}
+    .nav__link--btn{padding:.66rem 2rem;border:2px solid #2b2a2c;border-radius:20px;transition:background-color .2s linear,color .2s linear}
+    .nav__link--btn:hover{background-color:#2b2a2c;color:#fff}

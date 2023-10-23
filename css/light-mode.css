@@ -1,0 +1,104 @@
+.container {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	background-image: url(https://imageio.forbes.com/specials-images/imageserve/5f6d2094a0809827238c9ea1/Apple--iPhone--new-iPhone--iPhone-12--iPhone-12-Pro--iPhone-12-Pro-Max--iPhone-12/960x0.jpg?format=jpg&width=960);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+#divBlock {
+	width: 1000px;
+	height: 860px;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+#textH1 {
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 50px;
+	text-align: center;
+	color: rgb(231, 229, 227);
+	font-family: 'Times New Roman', Times, serif;
+	background: rgb(167, 87, 33);
+}
+.divBlockElements {
+	width: 1000px;
+	height: 250px;
+	background: rgb(248, 248, 245);
+	opacity: 0.9px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+}
+.deleteAndLikeElements {
+	width: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.elementDelete {
+	width: 40px;
+	height: 40px;
+}
+.elementLike {
+	width: 40px;
+	height: 40px;
+}
+.blockPhone {
+	width: 250px;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.imgPhone {
+	width: 200px;
+	height: 230px;
+}
+.nameIsPhone11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	margin-left: 20px;
+}
+.nameIsPhone11 span {
+	font-size: 20px;
+	color: slategrey;
+	margin-left: 8px;
+}
+.PlusAndMinusIcons {
+	width: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.elementPlus {
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	background: rgb(73, 69, 68);
+	border-radius: 5px;
+	color: snow;
+}
+.elementNumber {
+	width: 30px;
+	height: 30px;
+	font-size: 25px;
+	margin: 0 15px 0 25px;
+}
+.elementMinus {
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	background: rgb(73, 69, 68);
+	color: snow;
+	border-radius: 5px;
+}
+.costElement {
+	font-size: 30px;
+}
